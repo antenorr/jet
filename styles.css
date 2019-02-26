@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 100%;
+}
+body {
+  background-color: #eee;
+}
+
+.main {
+  background: #fff;
+}
+
+p {
+  margin-top: 10px;
+}
+.button {
+  width: 150px;
+  padding: 10px 20px;
+  border: 2px solid darkblue;
+  text-align: center;
+  background-color: pink;
+  margin-top: 25px;
+}
+
+.main-container {
+  border: 1px solid red;
+  width: 80%;
+  margin:50px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.test-text {
+  border: 1px dashed green;
+  width: 45%;
+}
+
+.test-output {
+  border: 1px dashed blue;
+  width: 45%;
+}
+
+
+
+::selection {
+  color:rgb(19, 19, 44);
+  background:rgb(255, 251, 0);
+  font-size: inherit;
+}
+
+::-moz-selection {
+  color:blue;
+  background:yellow;
+  font-size: inherit;
+}
