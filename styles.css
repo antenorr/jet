@@ -48,13 +48,20 @@ p {
 
 
 ::selection {
-  color:rgb(19, 19, 44);
+  /* color:rgb(19, 19, 44); */
   background:rgb(255, 251, 0);
+  color: rgb(163, 26, 26);
   font-size: inherit;
 }
 
 ::-moz-selection {
-  color:blue;
   background:yellow;
+  color: rgb(163, 26, 26);
   font-size: inherit;
+}
+
+
+.red-highlight{
+  color: rgb(163, 26, 26);
+  background:rgb(255, 251, 0);
 }
